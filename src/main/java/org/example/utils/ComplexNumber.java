@@ -1,4 +1,4 @@
-package com.cicd.utils;
+package org.example.utils;
 
 public class ComplexNumber {
     private double real;

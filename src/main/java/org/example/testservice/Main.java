@@ -1,6 +1,6 @@
-package com.cicd.testservice;
+package org.example.testservice;
 
-import com.cicd.utils.ComplexNumber;
+import org.example.utils.ComplexNumber;
 
 import static java.lang.Thread.sleep;
 
