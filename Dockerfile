@@ -1,4 +1,4 @@
 FROM openjdk:21
-COPY ./out/production/cicd-backend/ /tmp
+COPY ./target/classes/ /tmp
 WORKDIR /tmp
-CMD ["java", "com.cicd.testservice.Main"]
+CMD ["java", "org.example.testservice.Main"]
